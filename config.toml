@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Michael Charles"
+theme = "vitae"
+
+copyright = "© Copyright Michael Charles | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+[params]
+
+	homepage = false
+
+	keywords = ["it", "computing", "piano", "programing", "computers", "linux"]
+
+	description = "Personal website"
+
+
+	pagetitle = "HOme"
+
+	subtitle = ""
+	
+	avatar = "/images/avatar.gif"	
+
+	math = true
+
+	mainSections = ["posts","piano"]
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Piano"
+url = "/piano"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 5
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/mjctechguy/"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
